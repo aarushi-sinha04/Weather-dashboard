@@ -6,7 +6,6 @@ A real-time **Weather Dashboard** built with **React** and **Tailwind CSS**. Ent
 
 - **City Search**: Enter a city name to get current weather information.
 - **Weather Details**: Displays temperature, humidity, and wind speed.
-- **Responsive Design**: Optimized for both desktop and mobile views using Tailwind CSS.
 
 ## Live Demo
 
