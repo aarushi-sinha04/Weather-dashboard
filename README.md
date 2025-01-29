@@ -1,8 +1,20 @@
-# React + Vite
+Weather Dashboard
+A real-time Weather Dashboard built with React and Tailwind CSS. Enter any city name to get the current weather details including temperature, humidity, and wind speed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+City Search: Enter a city name to get current weather information.
+Weather Details: Displays temperature, humidity, and wind speed.
+Responsive Design: Optimized for both desktop and mobile views using Tailwind CSS.
+Live Demo
+Check out the live version of the Weather Dashboard:
+Weather Dashboard - Live Demo
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+React: For building the user interface.
+Tailwind CSS: For styling and responsiveness.
+OpenWeatherMap API: To fetch real-time weather data.
+How to Run Locally
+Clone the repository to your local machine.
+Navigate to the project directory.
+Install the necessary dependencies.
+Run the app locally, and it will be available at http://localhost:3000.
