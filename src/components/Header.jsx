@@ -8,7 +8,7 @@ function Header() {
                 Weather Dashboard
             </div>
             <div className='absolute left-1/2 transform -translate-x-1/2 flex space-x-10 text-xl text-blue-100'>
-                <NavLink to="/home" 
+                <NavLink to="/" 
                 className={({isActive}) => `'hover:text-blue-300' ${isActive? "text-blue-300": ''}` }
                 >Home</NavLink>
                 

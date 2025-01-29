@@ -3,6 +3,7 @@ import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import Searchbar from './Searchbar'
 import { useNavigate } from 'react-router-dom';
+import Header from './Header';
 
 
 function Weathercard() {
@@ -36,8 +37,10 @@ function Weathercard() {
     
     
   return (
-  
+    <>
+    <Header />
     <div className="bg-gradient-to-b from-blue-950 via-blue-400 to-teal-500 h-screen flex flex-col items-center justify-start pt-20 text-white">
+      
   {loading ? (
     <h1 className="text-3xl font-semibold animate-pulse">Loading...</h1>
   ) : error ? (
@@ -45,6 +48,7 @@ function Weathercard() {
        
   ) : (
     <>
+    
     <div className="bg-white bg-opacity-20 backdrop-blur-md rounded-2xl shadow-2xl p-10 space-y-4 w-4/5 max-w-lg mx-auto text-center border border-white border-opacity-30">
       <h1 className="text-5xl font-extrabold tracking-wide text-blue-100">
         Weather in <span>{cityname.city}</span>
@@ -79,7 +83,7 @@ function Weathercard() {
   )}
 
 </div>
-
+</>
 
         
    
